@@ -11,7 +11,7 @@ This pod owns JLBmpConvertKit.framework and JLLogHelper.framework so that
 multiple SDKs can depend on the same binaries without CocoaPods conflicts.
                        DESC
   s.homepage         = 'https://www.moyoung.com/'
-  s.license          = { :file => 'LICENSE' }
+  s.license          = { :type => 'GPL-3.0', :file => 'LICENSE' }
   s.author           = { 'Moyoung' => 'support@moyoung.com' }
   s.source           = { :git => 'https://github.com/QinShuangyu/MoyoungSharedFrameworks.git', :tag => s.version.to_s }
   s.platform         = :ios, '9.0'
